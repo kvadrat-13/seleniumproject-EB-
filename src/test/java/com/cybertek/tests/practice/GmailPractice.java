@@ -11,6 +11,7 @@ public class GmailPractice {
         WebDriver driver = new ChromeDriver();
 
         driver.get("http://facebook.com/");
+        Thread.sleep(2000);
         driver.manage().window().maximize();
 //        Thread.sleep(4000);
 
@@ -19,15 +20,18 @@ public class GmailPractice {
 
         driver.findElement(By.id("pass")).sendKeys("Gladiator1993");
 
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
 
         driver.findElement(By.id("u_0_b")).click();
         Thread.sleep(3000);
-        driver.close();
+       // driver.close();
 
-        driver.findElement(By.xpath("input[@name='q']")).click();
-        driver.findElement(By.xpath("input[@name='q']")).sendKeys("Hello world");
-       // driver.findElement(By.)
+        driver.findElement(By.xpath("//*[@id=\"u_w_2\"]/input[2]")).sendKeys("edilbek browne");
+
+
+//        driver.findElement(By.xpath("input[@name='q']")).click();
+//        driver.findElement(By.xpath("input[@name='q']")).sendKeys("Hello world");
+//       // driver.findElement(By.)input
 
 
 
@@ -56,6 +60,6 @@ public class GmailPractice {
 
 
 
-        driver.close();
+       // driver.close();
     }
 }

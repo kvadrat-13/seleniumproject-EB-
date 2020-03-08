@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c10ed9f-233a-49a8-b972-31fd578be272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_3_locators_2/FakerPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_3_locators_2/GetAttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_3_locators_2/LinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_3_locators_2/VerifyErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_3_locators_2/VerifyLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_4_xpath/GetAttribute2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_4_xpath/XpathPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_4_xpath/textMethodOfXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_5_more_xpath/ClassNameExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/home_work/AmazonScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/practice/Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/WebDriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_2_locators/FindElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_2_locators/FindElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/practice/GmailPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/practice/GmailPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_2_locators/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_2_locators/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/practice/GmailPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/practice/GmailPractice.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Login">
-    <configuration name="BookItTitleVerify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_1_navigation.BookItTitleVerify" />
+  <component name="RunManager" selected="Application.ClassNameExample">
+    <configuration name="ClassNameExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_5_more_xpath.ClassNameExample" />
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day_1_navigation.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day_5_more_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_2_locators.FindElement" />
+    <configuration name="GetAttribute2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_4_xpath.GetAttribute2" />
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day_2_locators.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day_4_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GmailPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_navigation.GmailPractice" />
+    <configuration name="NewTab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.practice.NewTab" />
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day_navigation.*" />
+          <option name="PATTERN" value="com.cybertek.tests.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_2_locators.Login" />
+    <configuration name="PracticeFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_4_xpath.PracticeFactory" />
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day_2_locators.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day_4_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumOH1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="officeHours.SeleniumOH1" />
+    <configuration name="textMethodOfXpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_4_xpath.textMethodOfXpath" />
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="officeHours.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day_4_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.FindElement" />
-        <item itemvalue="Application.BookItTitleVerify" />
-        <item itemvalue="Application.SeleniumOH1" />
-        <item itemvalue="Application.GmailPractice" />
+        <item itemvalue="Application.ClassNameExample" />
+        <item itemvalue="Application.textMethodOfXpath" />
+        <item itemvalue="Application.NewTab" />
+        <item itemvalue="Application.PracticeFactory" />
+        <item itemvalue="Application.GetAttribute2" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +159,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
