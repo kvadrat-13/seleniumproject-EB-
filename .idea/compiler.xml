@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fall2019seleniumproject" />
+        <module name="seleniumproject-EB-" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="12" />
