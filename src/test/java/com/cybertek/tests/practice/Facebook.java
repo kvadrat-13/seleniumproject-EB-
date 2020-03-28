@@ -27,21 +27,21 @@ public class Facebook {
         driver.get("https://facebook.com/");
 
         driver.findElement(By.id("email")).sendKeys("edil.browne@gmail.com");
-        Thread.sleep(2000);
+        Thread.sleep(8000);
 
         driver.findElement(By.id("pass")).sendKeys("bimerbenz" + Keys.ENTER);
-        Thread.sleep(2000);
+        Thread.sleep(8000);
 
         driver.findElement(By.className("_1frb")).sendKeys("arman birmagambetov" + Keys.ENTER);
-        Thread.sleep(3000);
+        Thread.sleep(8000);
 
         driver.findElement(By.linkText("Birmagambetov Arman")).click();
-        Thread.sleep(2000);
+        Thread.sleep(8000);
 
         driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[1]/div/div[2]/div[2]/div[1]/div/div[1]/div/div[3]/" +
                 "div/div[2]/div[2]/div/div/div[2]/a")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(8000);
 
         driver.findElement(By.xpath("/html/body/div[1]/div[7]/div[1]/div/div/div[4]/div/div[1]/div/div/div/div/div/div/" +
                 "div/div[2]/div[4]/div/div/div/span/div/div/div[2]/" +
