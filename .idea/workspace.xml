@@ -2,35 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c10ed9f-233a-49a8-b972-31fd578be272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_10_webelement/CheckBoxesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_10_webelement/OrderOfTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_10_webelement/RadioButtonsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_11_select_actions/ActionsClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_11_select_actions/SelectClassTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_12_pops_tabs_alerts_iframes/IFrameExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_12_pops_tabs_alerts_iframes/PopupAndAlertsExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_7_review/AmazonTestWithText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_7_review/SystemPropertiesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_8_review_2/VytrackTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_9_testing_intro/BeforeAndAfterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_9_testing_intro/FirstTestNGTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_9_testing_intro/TestNGAssertionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours1/GoogleSeachTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours1/Vytrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours2/GoogleHoverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours2/SelectClassPracticeTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours_mira/IFramePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours_mira/OfficeHour_03_17_2020.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytruckPageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytruckTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventPageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DemoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/VehiclesPageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/ExplicitWithExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/ImplicitWaitExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/RandomStuff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/ThreadSleepExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/VyTrackLoginTestWithWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_14_test_base_props_drivers/FileUploadTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_14_test_base_props_drivers/PropertiesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_14_test_base_props_drivers/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_14_test_base_props_drivers/TestingTestBaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_15_webtables/WebTablesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_16_page_object_model/NegativeLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_16_page_object_model/PageHeadersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_16_page_object_model/PositiveLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/CreateCalendarEventsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/MenuOptionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/UserInfoDataDrivenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/UserInfoDataDrivenTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_18_html_report/ExtentReportExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours3/DIfferentBrowsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours3/EtsyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours4/IFrameExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours4/JavaScriptExecutorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours4/WebTablesPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours_mira/WaitPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_7_review/AmazonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_7_review/AmazonTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/practice/Facebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/practice/Facebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/SeleniumOH1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours1/SeleniumOH1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/fall2019seleniumproject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_5_more_xpath/ClassNameExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_5_more_xpath/ClassNameExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/practice/Facebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/practice/Facebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/SeleniumOH1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/office_hours_mira/IFramePractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/office_hours_mira/IFramePractice.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,10 +73,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -81,52 +90,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.IFramePractice">
-    <configuration name="IFramePractice (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumproject-EB-" />
+  <component name="RunManager" selected="TestNG.MenuOptionTests.ddtTest">
+    <configuration name="CreateCalendarEventsTests.repeatCheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.office_hours_mira.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.office_hours_mira" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.office_hours_mira.IFramePractice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IFramePractice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumproject-EB-" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.office_hours_mira.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.office_hours_mira" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.office_hours_mira.IFramePractice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IFramePractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumproject-EB-" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.office_hours_mira.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.office_hours_mira" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.office_hours_mira.IFramePractice" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.CreateCalendarEventsTests" />
+      <option name="METHOD_NAME" value="repeatCheckBoxTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,34 +109,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAndWindowsExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumproject-EB-" />
+    <configuration name="MenuOptionTests.ddtTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day_12_pops_tabs_alerts_iframes.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_12_pops_tabs_alerts_iframes.TestAndWindowsExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.MenuOptionTests" />
+      <option name="METHOD_NAME" value="ddtTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAndWindowsExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumproject-EB-" />
+    <configuration name="MenuOptionTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day_12_pops_tabs_alerts_iframes.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_12_pops_tabs_alerts_iframes.TestAndWindowsExample" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.MenuOptionTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuOptionTests.testAllOptionsDriver" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.MenuOptionTests" />
+      <option name="METHOD_NAME" value="testAllOptionsDriver" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveLoginPage.loginAsDrivers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day_16_page_object_model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_16_page_object_model" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_16_page_object_model.PositiveLoginPage" />
+      <option name="METHOD_NAME" value="loginAsDrivers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.IFramePractice" />
-        <item itemvalue="TestNG.IFramePractice.test1" />
-        <item itemvalue="TestNG.IFramePractice (1)" />
-        <item itemvalue="TestNG.TestAndWindowsExample" />
-        <item itemvalue="TestNG.TestAndWindowsExample.test1" />
+        <item itemvalue="TestNG.MenuOptionTests.ddtTest" />
+        <item itemvalue="TestNG.MenuOptionTests.testAllOptionsDriver" />
+        <item itemvalue="TestNG.PositiveLoginPage.loginAsDrivers" />
+        <item itemvalue="TestNG.MenuOptionTests.test" />
+        <item itemvalue="TestNG.CreateCalendarEventsTests.repeatCheckBoxTest" />
       </list>
     </recent_temporary>
   </component>
