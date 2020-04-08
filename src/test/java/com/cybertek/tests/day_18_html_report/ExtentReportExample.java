@@ -28,7 +28,7 @@ public class ExtentReportExample {
         String path = System.getProperty("user.dir") + "/test-output/report.html";
         // initialize the html reporter with the given path
         htmlReporter = new ExtentHtmlReporter(path);
-        
+
 
         // attach the html reporter to the reporter object
         report.attachReporter(htmlReporter);
@@ -54,7 +54,10 @@ public class ExtentReportExample {
         test.info("verifying title");
         // assertEquals(google, google)
         test.pass("VYT-123 Title verification test");
+
     }
+
+
 
     @AfterMethod
     public void tearDown() {
