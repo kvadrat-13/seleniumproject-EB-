@@ -25,9 +25,15 @@ public class ExtentReportExample {
         // i need to point to the location where report will be create
         // System.getProperty("user.dir") --> gets my current folder
         // + "test-output/report.html" --> create folder test-output and in it create file report.html
-        String path = System.getProperty("user.dir") + "test-output/report.html";
+        String path = System.getProperty("user.dir") + "/test-output/report.html";
         // initialize the html reporter with the given path
         htmlReporter = new ExtentHtmlReporter(path);
+        
+
+        // attach the html reporter to the reporter object
+        report.attachReporter(htmlReporter);
+
+
         // set name for the report
         htmlReporter.config().setReportName("Vytrack Automated Tests");
 

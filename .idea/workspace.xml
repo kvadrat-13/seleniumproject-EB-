@@ -1,45 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c10ed9f-233a-49a8-b972-31fd578be272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytruckPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytruckTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DemoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/VehiclesPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/ExplicitWithExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/ImplicitWaitExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/RandomStuff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/ThreadSleepExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_13_waits_and_synchranization/VyTrackLoginTestWithWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_14_test_base_props_drivers/FileUploadTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_14_test_base_props_drivers/PropertiesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_14_test_base_props_drivers/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_14_test_base_props_drivers/TestingTestBaseTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_15_webtables/WebTablesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_16_page_object_model/NegativeLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_16_page_object_model/PageHeadersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_16_page_object_model/PositiveLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/CreateCalendarEventsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/MenuOptionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/UserInfoDataDrivenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/UserInfoDataDrivenTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_18_html_report/ExtentReportExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours3/DIfferentBrowsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours3/EtsyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours4/IFrameExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours4/JavaScriptExecutorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours4/WebTablesPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours_mira/WaitPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" afterDir="false" />
+    <list default="true" id="4c10ed9f-233a-49a8-b972-31fd578be272" name="Default Changelist" comment="April 7 second">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/office_hours_mira/IFramePractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/office_hours_mira/IFramePractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_18_html_report/ExtentReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_18_html_report/ExtentReportExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,19 +54,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MenuOptionTests.ddtTest">
-    <configuration name="CreateCalendarEventsTests.repeatCheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExtentReportExample">
+    <configuration name="ExtentReportExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day_18_html_report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.CreateCalendarEventsTests" />
-      <option name="METHOD_NAME" value="repeatCheckBoxTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_18_html_report" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_18_html_report.ExtentReportExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -183,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExtentReportExample" />
         <item itemvalue="TestNG.MenuOptionTests.ddtTest" />
         <item itemvalue="TestNG.MenuOptionTests.testAllOptionsDriver" />
         <item itemvalue="TestNG.PositiveLoginPage.loginAsDrivers" />
         <item itemvalue="TestNG.MenuOptionTests.test" />
-        <item itemvalue="TestNG.CreateCalendarEventsTests.repeatCheckBoxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,5 +179,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update April 7" />
+    <MESSAGE value="April 7 second" />
+    <option name="LAST_COMMIT_MESSAGE" value="April 7 second" />
   </component>
 </project>
