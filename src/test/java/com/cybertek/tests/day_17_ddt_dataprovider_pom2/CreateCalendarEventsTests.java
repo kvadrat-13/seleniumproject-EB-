@@ -1,13 +1,13 @@
 package com.cybertek.tests.day_17_ddt_dataprovider_pom2;
 
-import com.cybertek.base.VytruckTestBase;
+import com.cybertek.base.VytrackTestBase;
 import com.cybertek.utilities.ConfigurationReader;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class CreateCalendarEventsTests extends VytruckTestBase {
+public class CreateCalendarEventsTests extends VytrackTestBase {
 
     @Test
     public void allDayEventRadioTest() {
@@ -16,7 +16,7 @@ public class CreateCalendarEventsTests extends VytruckTestBase {
 
         driver.get("https://qa3.vytrack.com/calendar/event/create");
 
-        assertFalse(createCalendarEventPage.allDayEventCheckBox.isSelected());
+        assertFalse(createCalendarEventsPage.allDayEventCheckBox.isSelected());
     }
 
     @Test
@@ -25,7 +25,7 @@ public class CreateCalendarEventsTests extends VytruckTestBase {
                 ConfigurationReader.getProperty("driver_password"));
 
         driver.get("https://qa3.vytrack.com/calendar/event/create");
-        wait.until(ExpectedConditions.elementToBeClickable(createCalendarEventPage.repeatedCheckBox));
-        assertFalse(createCalendarEventPage.repeatedCheckBox.isSelected());
+        wait.until(ExpectedConditions.elementToBeClickable(createCalendarEventsPage.repeatedCheckBox));
+        assertFalse(createCalendarEventsPage.repeatedCheckBox.isSelected());
     }
 }

@@ -12,11 +12,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-public abstract class VytruckPageBase {
-    public VytruckPageBase() {
+public abstract class VytrackPageBase {
+    public VytrackPageBase() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-
 
     @FindBy(className = "oro-subtitle")
     public WebElement pageHeader;
@@ -33,33 +32,26 @@ public abstract class VytruckPageBase {
     @FindBy(css = ".title-level-1")
     public List<WebElement> menu1Options;
 
-//    @FindAll
-//    @FindBys()
-
-
     public void changeMenu(String menu1, String menu2) {
-        //menu1 -> Fleet
-        //menu1 -> Vehicles
-        // locate the menu1
+        String menu1X = "//span[contains(text(), '"+menu1+"')][@class='title title-level-1']";
+        WebElement menu1El = Driver.getDriver().findElement(By.xpath(menu1X));
 
-        String menu1Xpath = "//span[contains(text(), '" + menu1 + "')][@class='title title-level-1']";
-        WebElement menu1Element = Driver.getDriver().findElement(By.xpath(menu1Xpath));
+        String menu2X = "//span[.='"+menu2+"'][@class='title title-level-2']";
+        WebElement menu2El = Driver.getDriver().findElement(By.xpath(menu2X));
 
-        String menu2Xpath = "//span[.='" + menu2 + "'][@class='title title-level-2']";
-        WebElement menu2Element = Driver.getDriver().findElement(By.xpath(menu2Xpath));
+        WebDriverWait wait =new WebDriverWait(Driver.getDriver(), 5);
 
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 5);
-        wait.until(ExpectedConditions.elementToBeClickable(menu1Element));
-        menu1Element.click();
+        wait.until(ExpectedConditions.elementToBeClickable(menu1El));
 
+        menu1El.click();
         try {
             Thread.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        wait.until(ExpectedConditions.elementToBeClickable(menu2El));
+        menu2El.click();
 
-        wait.until(ExpectedConditions.elementToBeClickable(menu2Element));
-        menu2Element.click();
     }
 
 }

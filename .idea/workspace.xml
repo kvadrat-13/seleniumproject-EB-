@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c10ed9f-233a-49a8-b972-31fd578be272" name="Default Changelist" comment="April 7 (2nd)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytrackTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours4/ChangeMenuSoftAssertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours4/CookiesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/office_hours4/SoftAssertionsExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytruckPageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytrackPageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytruckTestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventPageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DemoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/VehiclesPageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/VehiclesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_16_page_object_model/PageHeadersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_16_page_object_model/PageHeadersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/CreateCalendarEventsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/CreateCalendarEventsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/MenuOptionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/MenuOptionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/UserInfoDataDrivenTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_17_ddt_dataprovider_pom2/UserInfoDataDrivenTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_18_html_report/ExtentReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day_18_html_report/ExtentReportExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/base/VytruckPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/base/VytruckTestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/CreateCalendarEventPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/DashboardPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/DemoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/VehiclesPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_16_page_object_model/PageHeadersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_16_page_object_model/PageHeadersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_17_ddt_dataprovider_pom2/CreateCalendarEventsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_17_ddt_dataprovider_pom2/CreateCalendarEventsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_17_ddt_dataprovider_pom2/MenuOptionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_17_ddt_dataprovider_pom2/MenuOptionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_17_ddt_dataprovider_pom2/UserInfoDataDrivenTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_17_ddt_dataprovider_pom2/UserInfoDataDrivenTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_18_html_report/ExtentReportExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day_18_html_report/ExtentReportExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ExtentReportExample">
+  <component name="RunManager" selected="TestNG.PageHeadersTest">
     <configuration name="ExtentReportExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
@@ -90,24 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuOptionTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_17_ddt_dataprovider_pom2.MenuOptionTests" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MenuOptionTests.testAllOptionsDriver" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
@@ -126,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveLoginPage.loginAsDrivers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PageHeadersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +148,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.day_16_page_object_model" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_16_page_object_model.PositiveLoginPage" />
-      <option name="METHOD_NAME" value="loginAsDrivers" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_16_page_object_model.PageHeadersTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageHeadersTest.dashboardPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day_16_page_object_model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day_16_page_object_model" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day_16_page_object_model.PageHeadersTest" />
+      <option name="METHOD_NAME" value="dashboardPageTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PageHeadersTest" />
+        <item itemvalue="TestNG.PageHeadersTest.dashboardPageTest" />
         <item itemvalue="TestNG.ExtentReportExample" />
         <item itemvalue="TestNG.MenuOptionTests.ddtTest" />
         <item itemvalue="TestNG.MenuOptionTests.testAllOptionsDriver" />
-        <item itemvalue="TestNG.PositiveLoginPage.loginAsDrivers" />
-        <item itemvalue="TestNG.MenuOptionTests.test" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586304326029</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="April 7 (2nd)">
+      <created>1586305265784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586305265789</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

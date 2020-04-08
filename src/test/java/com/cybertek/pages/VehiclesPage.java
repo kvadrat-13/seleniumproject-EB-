@@ -1,14 +1,14 @@
 package com.cybertek.pages;
 
-import com.cybertek.base.VytruckPageBase;
+import com.cybertek.base.VytrackPageBase;
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class VehiclesPageBase extends VytruckPageBase {
+public class VehiclesPage extends VytrackPageBase {
 
-    public VehiclesPageBase() {
+    public VehiclesPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

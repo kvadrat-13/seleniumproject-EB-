@@ -1,10 +1,9 @@
 package com.cybertek.tests.day_17_ddt_dataprovider_pom2;
 
-import com.cybertek.base.VytruckTestBase;
+import com.cybertek.base.VytrackTestBase;
 import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.ConfigurationReader;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -13,7 +12,7 @@ import java.util.List;
 
 import static org.testng.Assert.*;
 
-public class MenuOptionTests extends VytruckTestBase {
+public class MenuOptionTests extends VytrackTestBase {
 
     @Test
     public void test() {

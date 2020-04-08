@@ -1,12 +1,12 @@
 package com.cybertek.tests.day_17_ddt_dataprovider_pom2;
 
-import com.cybertek.base.VytruckTestBase;
+import com.cybertek.base.VytrackTestBase;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class UserInfoDataDrivenTest2 extends VytruckTestBase {
+public class UserInfoDataDrivenTest2 extends VytrackTestBase {
 
     @Test(dataProvider = "usersList")
     public void test(String username, String password, String expectedName) {
