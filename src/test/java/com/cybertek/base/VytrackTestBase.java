@@ -13,10 +13,7 @@ import com.cybertek.utilities.Driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
@@ -52,12 +49,20 @@ public abstract class VytrackTestBase {
         report.flush();
     }
 
-    @BeforeMethod
-    public void setUpMethod() {
+    @Parameters("url")
+    @BeforeMethod()
+    public void setUpMethod(@Optional String url) {
+        System.out.println("url = " + url);
         driver = Driver.getDriver();
         wait = new WebDriverWait(driver, 10);
         softAssert = new SoftAssert();
-        driver.get(ConfigurationReader.getProperty("vytrack_url"));
+
+        if (url == null) {
+            driver.get(ConfigurationReader.getProperty("vytrack_url"));
+        } else {
+            driver.get(url);
+        }
+
         loginPage = new LoginPage();
         dashboardPage = new DashboardPage();
         vehiclesPage = new VehiclesPage();
@@ -67,7 +72,7 @@ public abstract class VytrackTestBase {
 
     @AfterMethod
     public void tearDownMethod(ITestResult iTestResult) throws InterruptedException, IOException {
-        // ITestResult gives information about current test: name, status
+        // ITestResult class from testng gives information about current test: name, status
         // check if the test failed
         if (iTestResult.getStatus() == ITestResult.FAILURE) {
             // tell extent report that the test failed

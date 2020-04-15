@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vytruck automation suite">
+
+    <test name="Vytrack automation login QA 1">
+        <parameter name="url" value="https://qa1.vytrack.com/"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.cybertek.tests.day_16_page_object_model.PageHeadersTest"></class>
+        </classes>
+    </test>
+
+
+    <test name="Vytrack automation login QA 3">
+        <parameter name="url" value="https://qa3.vytrack.com/"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.cybertek.tests.day_16_page_object_model.PageHeadersTest"></class>
+        </classes>
+    </test>
+
+</suite>
